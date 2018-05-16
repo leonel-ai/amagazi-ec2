@@ -1,0 +1,400 @@
+@import 'normalize.css';
+
+@font-face {
+  font-family: 'Stevie Sans';
+  src: url(/static/titleFont/steviesanslight-webfont.woff) format('woff'),
+       url(/static/titleFont/steviesanslight-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IA Writer';
+  src: url(/static/titleFont/iawriterduospace-regular-webfont.woff) format('woff'),
+       url(/static/titleFont/iawriterduospace-regular-webfont.woff2) format('woff2');
+}
+
+
+$font-size: 80px;
+$accent-color: #FFC425;
+
+$font-title: 'IA Writer', 'Courier New', monospace; // name var to reuse
+$font-body: 'Stevie Sans', sans-serif;
+
+html, body {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 50px 15px 0px 15px;
+  color: white;
+  font-family: $font-body !important;
+}
+
+a {
+  color: white;
+  &:hover {
+    color: $accent-color !important;
+    text-decoration: none;
+    text-decoration: line-through !important;
+  }
+  &:active {
+    color: $accent-color !important;
+  }
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand { font-family: $font-title;}
+
+#cta { color: $accent-color; }
+
+.navbar {
+  .navbar-brand {
+    color: $accent-color;
+  }
+
+  ul {
+    min-height: 1200px;
+    font-size: 3em;
+    padding-top: 2em;
+    text-align: center;
+    font-family: $font-title;
+  }
+
+  .navbar-toggler {
+    &:focus,&:active {
+    outline: none !important;
+    box-shadow: none;
+    }
+  }
+}
+
+.container-fluid, .navbar {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.homepage { display: none; }
+
+.title { font-size: 2em;}
+.subtitles { font-size: 1.25em;}
+.title, .subtitles, .footer-copyright { font-family: $font-title !important; }
+
+.page-footer {
+  border-top: 2px solid white;
+
+  .container-fluid {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: $font-title;
+    }
+
+  .footer-copyright {
+    border-top: 2px solid white;
+    color: #757575;
+    opacity: .3;
+
+    a {
+      color: #757575;
+    }
+  }
+}
+
+.footer-copyright {
+  color: #757575;
+  opacity: .3;
+
+  a {
+    color: #757575;
+  }
+}
+
+.top-row {
+  padding-top: 2em;
+
+  .single-title {
+    padding-bottom: 1em;
+  }
+
+  .showdeck {
+    padding: 0;
+  }
+
+  .approach {
+    padding-top: 2em;
+  }
+}
+
+.videos {
+  .showdeck2 {
+    margin-top: 2em;
+  }
+}
+
+.body-row {
+  padding-top: 2em;
+
+  .single-title {
+    padding-bottom: 1em;
+  }
+
+  .showdeck {
+    padding: 0;
+  }
+
+  .services {
+    ul { padding-left: 0em;}
+  }
+}
+
+.subsection { padding-top: 2em;}
+
+.case-divider {
+  border: 1px solid white;
+  opacity: .25;
+}
+
+/* team cards */
+.team-slide { display: none; }
+
+.carousel.slide, .carousel-inner {
+  width: 20em auto;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 560px;
+}
+
+.card {
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px 0 rgba(255, 255, 255, 0.85);
+  transition: ease-out 0.3s;
+
+  h4 { font-size: 1.25em; }
+  h5 { font-size: 1.1em;}
+
+  .card-body {
+    height: 300px;
+    border-right: .5px solid #757575;
+    border-left: .5px solid #757575;
+    overflow: scroll;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-text {
+    font-size: .9em;
+  }
+}
+
+.accordion {
+  padding-bottom: 3em;
+  .card {
+    border-top: .5px solid #757575;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.5);
+  }
+}
+
+.case-group { display: none; }
+
+.brand-group {
+  margin: 0 auto;
+
+  ul {
+    font-size: .85em;
+    width: 130px;
+   }
+}
+
+.logo-slider {
+  max-height: 220px;
+
+  .carousel.slide {
+    max-height: 220px;
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .homepage-mobile { display: none; }
+  .homepage { display: block; }
+
+  .navbar {
+    padding-left: 40px;
+    padding-right:40px;
+  }
+
+
+  /* team cards */
+  .carousel.slide, .carousel-inner {
+    width: 20em;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 560px;
+  }
+
+  .card {
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+
+    h4 { font-size: 1.25em; }
+    h5 { font-size: 1.1em;}
+
+    .card-body {
+      height: 300px;
+      border-right: .5px solid #757575;
+      border-left: .5px solid #757575;
+      overflow: scroll;
+    }
+
+    .card-img-top {
+      height: 200px;
+    }
+
+    .card-text {
+      font-size: .9em;
+    }
+  }
+
+  .accordion { display: none; }
+  .case-group { display: flex; }
+
+  .list-group-item {
+    background-color: black;
+    color: white;
+
+    &.active {
+      background-color: rgb(40, 40, 40);
+      border-color: $accent-color;
+    }
+  }
+
+  .case-studies {
+    max-height: 360px;
+    overflow: scroll;
+  }
+
+  .brand-group {
+    padding-top: 4em;
+  }
+
+  .logo-slider {
+    max-height: 340px;
+
+    .carousel.slide, .carousel-inner {
+      margin: 0 auto;
+      overflow: hidden;
+      min-height: 0;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .navbar { position: absolute; }
+
+  .title { font-size: 3em;}
+  .subtitles { font-size: 1.75em;}
+
+  p, ul { font-size: 18px;}
+  p {
+    padding-right: 2em;
+  }
+
+.top-row {
+  padding-top: 4em;
+
+  .single-title {
+    padding-bottom: 2em;
+  }
+}
+
+.videos {
+  padding-bottom: 2em;
+  .showdeck2 {
+    margin-top: 0;
+  }
+}
+
+.body-row {
+  padding-top: 5em;
+
+  .single-title {
+    padding-bottom: 1em;
+  }
+
+  .services {
+    ul { padding-left: 0em;}
+  }
+
+  .motto.subsection, .idea.subsection{ padding-top: 0;}
+}
+
+.subsection { padding-top: 2em; }
+
+  /* services */
+  .service-approach {
+    .showdeck {
+      max-height: 400px;
+    }
+  }
+
+  .team-cards { display: none; }
+
+  .team-slide {
+    display: block;
+    padding-top: 2em;
+
+
+    .carousel.slide, .carousel-inner {
+      margin: 0 auto;
+      overflow: hidden;
+      height: auto;
+      width: 100%;
+    }
+
+    .carousel-multi-item .col-md-4 {
+      float:left;
+      width: 33.333333%;
+      max-width: 100%
+    }
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .subsection { padding-top: 0;}
+  .brand-group {
+    padding-top: 8em;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://amagazi.com/</loc>
+    <image:image>
+       <image:loc>http://amagazi.com/static/homepage.gif</image:loc>
+       <image:caption>amagazi digital creative advertising</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/homepage-m.gif</image:loc>
+       <image:caption>amagazi digital creative agency</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>http://amagazi.com/services</loc>
+      <video:video>
+        <video:content_loc>
+          https://youtu.be/zlTwDTgQuh0
+        </video:content_loc>
+        <video:player_loc allow_embed="yes" autoplay="ap=1">
+          https://www.youtube.com/embed/zlTwDTgQuh0
+        </video:player_loc>
+        <video:thumbnail_loc>
+          https://img.youtube.com/vi/zlTwDTgQuh0/maxresdefault.jpg
+        </video:thumbnail_loc>
+        <video:title>amagazi</video:title>
+        <video:description>
+          amagazi show reel
+        </video:description>
+      </video:video>
+  </url>
+
+  <url>
+    <loc>http://amagazi.com/about</loc>
+      <image:image>
+       <image:loc>http://amagazi.com/static/lobby.jpg</image:loc>
+       <image:caption>amagazi creative agency</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/ryan.png</image:loc>
+       <image:caption>amagazi ceo</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/chrisJ.png</image:loc>
+       <image:caption>amagazi coo</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/miguel.png</image:loc>
+       <image:caption>amagazi creative director</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/shaina.png</image:loc>
+       <image:caption>amagazi copywriter</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/hillary.png</image:loc>
+       <image:caption>amagazi project manager</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/chrisf.png</image:loc>
+       <image:caption>amagazi art director</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/leonela.png</image:loc>
+       <image:caption>amagazi full stack developer</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/forrest.png</image:loc>
+       <image:caption>amagazi producer</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/team/kristian.png</image:loc>
+       <image:caption>amagazi account executive</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>http://amagazi.com/work</loc>
+    <video:video>
+        <video:content_loc>
+          https://youtu.be/uuyy212-HQQ
+        </video:content_loc>
+        <video:player_loc allow_embed="yes" autoplay="ap=1">
+          https://www.youtube.com/embed/uuyy212-HQQ
+        </video:player_loc>
+        <video:thumbnail_loc>
+          https://img.youtube.com/vi/uuyy212-HQQ/maxresdefault.jpg
+        </video:thumbnail_loc>
+        <video:title>amagazi</video:title>
+        <video:description>
+          amagazi commercial reel
+        </video:description>
+      </video:video>
+      <video:video>
+        <video:content_loc>
+          https://youtu.be/zlTwDTgQuh0
+        </video:content_loc>
+        <video:player_loc allow_embed="yes" autoplay="ap=1">
+          https://www.youtube.com/embed/zlTwDTgQuh0
+        </video:player_loc>
+        <video:thumbnail_loc>
+          https://img.youtube.com/vi/zlTwDTgQuh0/maxresdefault.jpg
+        </video:thumbnail_loc>
+        <video:title>amagazi</video:title>
+        <video:description>
+          amagazi show reel
+        </video:description>
+      </video:video>
+      <image:image>
+       <image:loc>http://amagazi.com/static/gutier.gif</image:loc>
+       <image:caption>amagazi augmented reality</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/logos_01.gif</image:loc>
+       <image:caption>amagazi brand strategy</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/logos_02.gif</image:loc>
+       <image:caption>amagazi brand marketing</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://amagazi.com/static/logos_03.gif</image:loc>
+       <image:caption>amagazi business strategy</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>http://amagazi.com/privacy</loc>
+  </url>
+</urlset>
